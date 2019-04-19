@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/item_iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:id="@+id/item_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#30E8DFDF"
+        android:text="描述"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
